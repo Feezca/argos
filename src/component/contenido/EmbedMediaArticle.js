@@ -1,6 +1,7 @@
 import React from "react";
 import "./article.css";
 
+// seccion dedicada a los iframe conectados a youtube 
 const EmbedMediaArticle = () => {
   return (
     <div className="nota w-400 p-3 mt-6 mb-6">
@@ -17,10 +18,10 @@ const EmbedMediaArticle = () => {
       </div>
       <div className="body">
         <div className="titulo">
-          <h3>Lorem ipsum dolor sit amet</h3>
+          <h3>Historias de al lado #1</h3>
         </div>
         <div className="subtitulo">
-          <h4>Lorem ipsum dolor sit amet</h4>
+          <h4>Nota con Eduardo Segura</h4>
         </div>
         <div className="description">
           <p>

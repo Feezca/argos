@@ -1,10 +1,7 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
 import Layout from "./component/layout/Layout";
-import Footer from "./component/footer/Footer";
-import Navbar from "./component/navbar/Navbar";
-import { Contenido } from "./component/contenido/Contenido";
-import Nosotros from "./component/contenido/Nosotros";
+import Home from "./component/pages/Home";
 
 
 function App() {
@@ -12,10 +9,7 @@ function App() {
     //encierra los componentes
     <Layout>
       {/* componentes */}
-      <Navbar />
-      <Nosotros/>
-      <Contenido/>
-      <Footer />
+      <Home/>
     </Layout>
   );
 }

@@ -4,18 +4,20 @@ import EmbedMediaArticle from "./EmbedMediaArticle";
 import TextArticle from "./textArticle";
 import MediaArticle from "./MediaArticle";
 
-
-export const Contenido = () => {
+const Contenido = () => {
     return (
-        <div>
-{/* seccion donde se mostrara el contenido de articulos,videos y publicaciones de instagram  */}
+        <>
+    {/* seccion donde se mostrara el contenido de articulos,videos y publicaciones de instagram  */}
             <ArticleContainer>
                 <MediaArticle/>
                 <EmbedMediaArticle/>
                 <TextArticle/>
             </ArticleContainer>    
-        </div>
+        </>
     )
 }
+
+export default Contenido
+
 
     
